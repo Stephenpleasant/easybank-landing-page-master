@@ -54,7 +54,6 @@ body{
     background-color: var(--Light-Grayish-Blue);
     line-height: 1.3rem;
     display: grid;
-    font-weight: 100;
     grid-template-rows: min-content 1fr;
     overflow-x: hidden;
 }
@@ -246,7 +245,7 @@ button{
     text-decoration: none;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 30rem) {
 .primary-navigation{
         position: fixed;
         height: 250px;
@@ -330,8 +329,6 @@ button{
     padding: 0 10px;
     grid-template-columns: 1fr;
 }
-
-
     .fs{
         font-size: var(--fs-200);
     }
@@ -339,11 +336,57 @@ button{
         padding: 2px 5px;
         font-size: var(--fs-200);
     } 
-
 }
 
 @media (max-width: 45rem) {
     .primary-navigation{
         margin-block: 2em;
     }
-}
+    
+    .section-p1{
+        padding: 80px 0 100px;   
+    }
+    .section-p2{
+        padding: 40px 80px;
+    }
+    button{
+        justify-content: center;
+    }
+        .boxes{
+            margin-top: 10px;
+        }
+        .boxes > h1{
+            padding: 15px;
+        }
+        .two{
+            margin-left: 5em;
+            text-align: center;
+            width: 100%;
+            font-size: var(--fs-200);
+        }
+        .one{    
+            font-size: var(--fs-200);  
+        }
+    
+    
+        .hide{
+            display: none;
+        }
+    .sec{
+       inset: 10% 60% 10% 10%;
+       margin-left: 20%;
+        width: 60%;
+        padding: 0 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+        .fs{
+            font-size: var(--fs-200);
+        }
+       .bbi{
+            padding: 2px 5px;
+            font-size: var(--fs-200);
+        } 
+        .bobo{
+            margin:0 0 5px 5px;
+        }
+    }

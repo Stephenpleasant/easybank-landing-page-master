@@ -167,6 +167,8 @@ button{
 }
 .backg{
     display: none;
+    width: 100%;
+    background-size: cover;
 }
 .sec{
     margin-top: 50px;
@@ -175,7 +177,6 @@ button{
     grid-gap: 10px;
 }
 .img{
-    
     background-image: url("images/bg-intro-desktop.svg");
 }
 .mobile-nav-toggle{
